@@ -21,8 +21,18 @@ func main() {
 	}
 
 	switch os.Args[1] {
+	case "array":
+		Array()
 	case "hello":
-		hello()
+		Hello()
+	case "interface":
+		Interface()
+	case "slice":
+		Slice()
+	case "struct":
+		Struct()
+	case "utest":
+		Utest()
 	default:
 		fmt.Println("Unknown demo:", os.Args[1])
 	}

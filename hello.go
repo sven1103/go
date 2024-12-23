@@ -6,7 +6,7 @@ import (
 )
 import "fmt"
 
-func hello() {
+func Hello() {
 	const defaultName string = "golander"
 	var name string
 	fmt.Print("Please enter your name [golander]: ")
