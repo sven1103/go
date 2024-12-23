@@ -12,7 +12,7 @@ func main() {
 
 	if len(os.Args) < 2 {
 		fmt.Println("Please specify a demo to run: ")
-		bold("  %s\n", "go run main.go <example>")
+		bold("  %s\n", "go run . <example>")
 		fmt.Println("Available examples:")
 		for _, example := range examples {
 			fmt.Println("  - " + example)
