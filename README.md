@@ -11,7 +11,8 @@ go run . <example>
 ### Available examples
 
 #### hello
-tags: console input, time
+> [!NOTE]
+> Shows how to query console input and deal with time.
 
 Asks for your name and prints it on the console with a date time stamp.
 
